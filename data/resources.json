@@ -44,7 +44,7 @@
       "name": "AppStorage/FoundationChat",
       "url": "https://github.com/AppStorage/FoundationChat",
       "category": "Foundation Models",
-      "why": "SwiftUI chat app on Foundation Models (MIT). Requires iOS/macOS 26 and Xcode 26. Last pushed June 2025, so check it still builds.",
+      "why": "SwiftUI chat app on Foundation Models (MIT). Does NOT build on Xcode 27.1 (verified 2026-11-21: API mismatch in ConversationDetailView). Use as reading material, not a starting template, until fixed.",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
       "status": "stale",
@@ -54,7 +54,7 @@
       "name": "artemnovichkov/HotdogApp",
       "url": "https://github.com/artemnovichkov/HotdogApp",
       "category": "Foundation Models",
-      "why": "Small sample app built with Foundation Models (\"Hotdog or Not Hotdog\"). Good minimal reference for guided prompting.",
+      "why": "Small Foundation Models sample. Builds for iOS Simulator on Xcode 27.1 (verified 2026-11-21). Good minimal reference for guided prompting.",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
       "status": "active",
@@ -174,7 +174,7 @@
       "name": "ml-explore/mlx-swift-examples",
       "url": "https://github.com/ml-explore/mlx-swift-examples",
       "category": "MLX",
-      "why": "Runnable iOS and macOS sample apps: MLXChatExample, LLMEval, StableDiffusionExample.",
+      "why": "Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample needs Xcode's macro trust prompt accepted before it builds (verified 2026-11-21: build blocked until trusted).",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
       "status": "active",
@@ -188,7 +188,7 @@
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
       "status": "active",
-      "stars": 135899
+      "stars": 135898
     },
     {
       "name": "mlc-ai/mlc-llm",
@@ -198,7 +198,7 @@
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
       "status": "active",
-      "stars": 23406
+      "stars": 23405
     },
     {
       "name": "huggingface/swift-transformers",
@@ -214,7 +214,7 @@
       "name": "argmaxinc/argmax-oss-swift",
       "url": "https://github.com/argmaxinc/argmax-oss-swift",
       "category": "Speech",
-      "why": "On-device speech AI for Apple silicon (formerly WhisperKit). Strongest Swift-native option for transcription on iPhone.",
+      "why": "On-device speech AI for Apple silicon (formerly WhisperKit). WhisperAX example app builds for iOS Simulator on Xcode 27.1 (verified 2026-11-21). Strongest Swift-native option for transcription on iPhone.",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
       "status": "active",

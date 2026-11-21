@@ -29,8 +29,8 @@ Curated iOS on-device and Apple AI resources. Status is checked weekly.
 ## Foundation Models
 
 - [huggingface/AnyLanguageModel](https://github.com/huggingface/AnyLanguageModel) - Drop-in, API-compatible replacement for Apple's Foundation Models framework that adds other backends. Use it to test or ship beyond Apple Intelligence devices.
-- [AppStorage/FoundationChat](https://github.com/AppStorage/FoundationChat) - SwiftUI chat app on Foundation Models (MIT). Requires iOS/macOS 26 and Xcode 26. Last pushed June 2025, so check it still builds. _(stale)_
-- [artemnovichkov/HotdogApp](https://github.com/artemnovichkov/HotdogApp) - Small sample app built with Foundation Models ("Hotdog or Not Hotdog"). Good minimal reference for guided prompting.
+- [AppStorage/FoundationChat](https://github.com/AppStorage/FoundationChat) - SwiftUI chat app on Foundation Models (MIT). Does NOT build on Xcode 27.1 (verified 2026-11-21: API mismatch in ConversationDetailView). Use as reading material, not a starting template, until fixed. _(stale)_
+- [artemnovichkov/HotdogApp](https://github.com/artemnovichkov/HotdogApp) - Small Foundation Models sample. Builds for iOS Simulator on Xcode 27.1 (verified 2026-11-21). Good minimal reference for guided prompting.
 - [AddikiPraveenKumar/foundation-models-ios-guide](https://github.com/AddikiPraveenKumar/foundation-models-ios-guide) - Written guide to the Foundation Models framework on iOS 26, focused on privacy-first features. Low adoption; check content against Apple's docs. _(stale)_
 - [GijungKim/expo-local-llm](https://github.com/GijungKim/expo-local-llm) - Expo module running on-device LLMs via Foundation Models on iOS and Gemini Nano on Android. Use for cross-platform React Native apps.
 
@@ -38,7 +38,7 @@ Curated iOS on-device and Apple AI resources. Status is checked weekly.
 
 - [ml-explore/mlx-swift](https://github.com/ml-explore/mlx-swift) - Swift API for Apple's MLX array framework on Apple silicon. Base layer for the LLM packages below.
 - [ml-explore/mlx-swift-lm](https://github.com/ml-explore/mlx-swift-lm) - Run and fine-tune LLMs and VLMs in Swift. iOS 17+. Includes an MLXFoundationModels bridge for Apple's LanguageModelSession.
-- [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples) - Runnable iOS and macOS sample apps: MLXChatExample, LLMEval, StableDiffusionExample.
+- [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples) - Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample needs Xcode's macro trust prompt accepted before it builds (verified 2026-11-21: build blocked until trusted).
 
 ## Runtimes
 
@@ -48,7 +48,7 @@ Curated iOS on-device and Apple AI resources. Status is checked weekly.
 
 ## Speech
 
-- [argmaxinc/argmax-oss-swift](https://github.com/argmaxinc/argmax-oss-swift) - On-device speech AI for Apple silicon (formerly WhisperKit). Strongest Swift-native option for transcription on iPhone.
+- [argmaxinc/argmax-oss-swift](https://github.com/argmaxinc/argmax-oss-swift) - On-device speech AI for Apple silicon (formerly WhisperKit). WhisperAX example app builds for iOS Simulator on Xcode 27.1 (verified 2026-11-21). Strongest Swift-native option for transcription on iPhone.
 - [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) - C/C++ port of OpenAI's Whisper. Widely used on mobile; usable from Swift via C interop.
 
 ## Contributing
