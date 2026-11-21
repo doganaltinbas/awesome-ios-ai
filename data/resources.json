@@ -41,6 +41,26 @@
       "stars": 0
     },
     {
+      "name": "ml-explore/mlx-swift-lm",
+      "url": "https://github.com/ml-explore/mlx-swift-lm",
+      "category": "MLX",
+      "why": "Run and fine-tune LLMs and VLMs in Swift. iOS 17+. Includes MLXFoundationModels bridge for Apple's LanguageModelSession.",
+      "added": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "status": "active",
+      "stars": 878
+    },
+    {
+      "name": "ml-explore/mlx-swift-examples",
+      "url": "https://github.com/ml-explore/mlx-swift-examples",
+      "category": "MLX",
+      "why": "Runnable iOS and macOS sample apps: MLXChatExample, LLMEval, StableDiffusionExample.",
+      "added": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "status": "active",
+      "stars": 2702
+    },
+    {
       "name": "likedan/Awesome-CoreML-Models",
       "url": "https://github.com/likedan/Awesome-CoreML-Models",
       "category": "Core ML models",

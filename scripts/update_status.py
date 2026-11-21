@@ -62,7 +62,13 @@ def main() -> None:
             badge = "" if e["status"] == "active" else f" _({e['status']})_"
             lines.append(f"- [{e['name']}]({e['url']}) - {e['why']}{badge}")
         lines.append("")
-    lines += ["## Contributing", "", "See [CONTRIBUTING.md](CONTRIBUTING.md)."]
+    lines += [
+        "## Contributing",
+        "",
+        "Not sure which to use? See [COMPARISON.md](COMPARISON.md).",
+        "",
+        "See [CONTRIBUTING.md](CONTRIBUTING.md).",
+    ]
     README.write_text("\n".join(lines) + "\n")
 
 
