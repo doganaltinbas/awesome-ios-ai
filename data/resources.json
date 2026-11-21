@@ -7,7 +7,8 @@
       "why": "Apple's official Core AI export recipes and Swift runtime.",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
-      "status": "active"
+      "status": "active",
+      "stars": 2368
     },
     {
       "name": "john-rocky/coreai-model-zoo",
@@ -16,7 +17,8 @@
       "why": "Swift conversions of LLMs for Core AI.",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
-      "status": "active"
+      "status": "active",
+      "stars": 467
     },
     {
       "name": "onmyway133/awesome-machine-learning",
@@ -25,7 +27,8 @@
       "why": "Curated ML resources with a Core ML focus.",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
-      "status": "active"
+      "status": "active",
+      "stars": 814
     },
     {
       "name": "AppStorage/FoundationChat",
@@ -34,7 +37,8 @@
       "why": "SwiftUI chat app built on the Foundation Models framework (MIT).",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
-      "status": "stale"
+      "status": "stale",
+      "stars": 0
     },
     {
       "name": "likedan/Awesome-CoreML-Models",
@@ -43,7 +47,8 @@
       "why": "Large collection of Core ML models.",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
-      "status": "stale"
+      "status": "stale",
+      "stars": 7078
     }
   ]
 }
