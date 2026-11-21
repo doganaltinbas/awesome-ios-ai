@@ -1,253 +1,403 @@
 {
+  "schema_version": 1,
   "entries": [
     {
       "name": "apple/coreai-models",
       "url": "https://github.com/apple/coreai-models",
-      "category": "Core AI",
-      "why": "Apple's official Core AI export recipes, Python primitives and Swift runtime utilities. Requires iOS/macOS 27 and Xcode 27. Not accepting PRs at launch.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Core AI",
+      "what": "Apple's official Core AI export recipes, Python primitives and Swift runtime utilities. Requires iOS/macOS 27 and Xcode 27. Not accepting PRs at launch.",
+      "min_ios": 27,
+      "build": {
+        "result": "passed",
+        "xcode": "27.1",
+        "date": "2026-11-21",
+        "note": "Built for generic iOS (device SDK); the simulator SDK lacks CoreAI"
+      },
+      "license": "BSD-3-Clause",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 2368
     },
     {
       "name": "john-rocky/coreai-model-zoo",
       "url": "https://github.com/john-rocky/coreai-model-zoo",
-      "category": "Core AI",
-      "why": "Swift-focused model zoo converting open LLMs (e.g., Qwen3.5, Gemma 4) to Core AI. The most active community zoo found.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Core AI",
+      "what": "Swift-focused model zoo converting open LLMs (e.g., Qwen3.5, Gemma 4) to Core AI. The most active community zoo found.",
+      "min_ios": 27,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": null,
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 467
     },
     {
       "name": "CYBRTRK2/coreai-model-zoo",
       "url": "https://github.com/CYBRTRK2/coreai-model-zoo",
-      "category": "Core AI",
-      "why": "Community zoo with 66 Core AI models across LLM, VLM, OCR, ASR, TTS and image/video. Newer project.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Core AI",
+      "what": "Community zoo with 66 Core AI models across LLM, VLM, OCR, ASR, TTS and image/video. Newer project.",
+      "min_ios": 27,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": null,
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 0
     },
     {
       "name": "huggingface/AnyLanguageModel",
       "url": "https://github.com/huggingface/AnyLanguageModel",
-      "category": "Foundation Models",
-      "why": "Drop-in, API-compatible replacement for Apple's Foundation Models framework that adds other backends. Use it to test or ship beyond Apple Intelligence devices.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Foundation Models",
+      "what": "Drop-in, API-compatible replacement for Apple's Foundation Models framework that adds other backends. Use it to test or ship beyond Apple Intelligence devices.",
+      "min_ios": null,
+      "build": {
+        "result": "passed",
+        "xcode": "27.1",
+        "date": "2026-11-21"
+      },
+      "license": "Apache-2.0",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 990
     },
     {
       "name": "AppStorage/FoundationChat",
       "url": "https://github.com/AppStorage/FoundationChat",
-      "category": "Foundation Models",
-      "why": "SwiftUI chat app on Foundation Models (MIT). Written for Xcode 26; needs updates to build on Xcode 27.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Foundation Models",
+      "what": "SwiftUI chat app on Foundation Models (MIT). Written for Xcode 26; needs updates to build on Xcode 27.",
+      "min_ios": 26,
+      "build": {
+        "result": "failed",
+        "xcode": "27.1",
+        "date": "2026-11-21",
+        "note": "ConversationDetailView API mismatch"
+      },
+      "license": "MIT",
       "status": "stale",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 0
     },
     {
       "name": "artemnovichkov/HotdogApp",
       "url": "https://github.com/artemnovichkov/HotdogApp",
-      "category": "Foundation Models",
-      "why": "Minimal Foundation Models sample app for guided prompting. Builds on Xcode 27.1.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Foundation Models",
+      "what": "Minimal Foundation Models sample app for guided prompting. Builds on Xcode 27.1.",
+      "min_ios": null,
+      "build": {
+        "result": "passed",
+        "xcode": "27.1",
+        "date": "2026-11-21",
+        "note": "iOS Simulator"
+      },
+      "license": null,
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 5
     },
     {
       "name": "AddikiPraveenKumar/foundation-models-ios-guide",
       "url": "https://github.com/AddikiPraveenKumar/foundation-models-ios-guide",
-      "category": "Foundation Models",
-      "why": "Written guide to Foundation Models on iOS 26, focused on privacy-first features.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Foundation Models",
+      "what": "Written guide to Foundation Models on iOS 26, focused on privacy-first features.",
+      "min_ios": 26,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": null,
       "status": "stale",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 0
     },
     {
       "name": "GijungKim/expo-local-llm",
       "url": "https://github.com/GijungKim/expo-local-llm",
-      "category": "Foundation Models",
-      "why": "Expo module running on-device LLMs via Foundation Models on iOS and Gemini Nano on Android. Use for cross-platform React Native apps.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Foundation Models",
+      "what": "Expo module running on-device LLMs via Foundation Models on iOS and Gemini Nano on Android. Use for cross-platform React Native apps.",
+      "min_ios": 26,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "MIT",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 15
     },
     {
       "name": "dromerosm/fm-smishing-bench",
       "url": "https://github.com/dromerosm/fm-smishing-bench",
-      "category": "Evals and benchmarks",
-      "why": "Reproducible benchmark of Foundation Models on SMS scam detection. A public eval for on-device LLM output.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Evals and benchmarks",
+      "what": "Reproducible benchmark of Foundation Models on SMS scam detection. A public eval for on-device LLM output.",
+      "min_ios": 27,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "MIT",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 1
     },
     {
       "name": "apple/coremltools",
       "url": "https://github.com/apple/coremltools",
-      "category": "Core ML",
-      "why": "Apple's Python tools to convert, edit and validate Core ML models from PyTorch and TensorFlow. Start here for any conversion.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Core ML",
+      "what": "Apple's Python tools to convert, edit and validate Core ML models from PyTorch and TensorFlow. Start here for any conversion.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "BSD-3-Clause",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 5456
     },
     {
       "name": "john-rocky/CoreML-Models",
       "url": "https://github.com/john-rocky/CoreML-Models",
-      "category": "Core ML",
-      "why": "Model zoo of PyTorch models converted to ready-to-use .mlpackage files for iOS/macOS, with conversion notes per model. Updated this week.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Core ML",
+      "what": "Model zoo of PyTorch models converted to ready-to-use .mlpackage files for iOS/macOS, with conversion notes per model. Updated this week.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "Apache-2.0",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 1902
     },
     {
       "name": "apple-aiml-research/ml-stable-diffusion",
       "url": "https://github.com/apple-aiml-research/ml-stable-diffusion",
-      "category": "Core ML",
-      "why": "Apple's reference for running Stable Diffusion with Core ML on Apple silicon, including a Swift package.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Core ML",
+      "what": "Apple's reference for running Stable Diffusion with Core ML on Apple silicon, including a Swift package.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested",
+        "note": "CLI target imports Cocoa; library not isolated"
+      },
+      "license": "MIT",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 17962
     },
     {
       "name": "apple-aiml-research/ml-ane-transformers",
       "url": "https://github.com/apple-aiml-research/ml-ane-transformers",
-      "category": "Core ML",
-      "why": "Reference Transformer implementation optimized for the Apple Neural Engine. Use when latency or battery matters for a Core ML model.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Core ML",
+      "what": "Reference Transformer implementation optimized for the Apple Neural Engine. Use when latency or battery matters for a Core ML model.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": null,
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 2750
     },
     {
       "name": "huggingface/swift-coreml-diffusers",
       "url": "https://github.com/huggingface/swift-coreml-diffusers",
-      "category": "Core ML",
-      "why": "Swift app demonstrating Core ML Stable Diffusion. Archived, so use Apple's ml-stable-diffusion for current code.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Core ML",
+      "what": "Swift app demonstrating Core ML Stable Diffusion. Archived, so use Apple's ml-stable-diffusion for current code.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "Apache-2.0",
       "status": "stale",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 2748
     },
     {
       "name": "likedan/Awesome-CoreML-Models",
       "url": "https://github.com/likedan/Awesome-CoreML-Models",
-      "category": "Core ML",
-      "why": "Large curated index of Core ML models. Last pushed June 2025; many links may be dead.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Core ML",
+      "what": "Large curated index of Core ML models. Last pushed June 2025; many links may be dead.",
+      "min_ios": null,
+      "build": {
+        "result": "n/a"
+      },
+      "license": "MIT",
       "status": "stale",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 7078
     },
     {
       "name": "ml-explore/mlx-swift",
       "url": "https://github.com/ml-explore/mlx-swift",
-      "category": "MLX",
-      "why": "Swift API for Apple's MLX array framework on Apple silicon. Base layer for the LLM packages below.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "MLX",
+      "what": "Swift API for Apple's MLX array framework on Apple silicon. Base layer for the LLM packages below.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "MIT",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 2095
     },
     {
       "name": "ml-explore/mlx-swift-lm",
       "url": "https://github.com/ml-explore/mlx-swift-lm",
-      "category": "MLX",
-      "why": "Run and fine-tune LLMs and VLMs in Swift. iOS 17+. Includes an MLXFoundationModels bridge for Apple's LanguageModelSession.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "MLX",
+      "what": "Run and fine-tune LLMs and VLMs in Swift. iOS 17+. Includes an MLXFoundationModels bridge for Apple's LanguageModelSession.",
+      "min_ios": 17,
+      "build": {
+        "result": "passed",
+        "xcode": "27.1",
+        "date": "2026-11-21",
+        "note": "Built as a dependency of mlx-swift-examples"
+      },
+      "license": "MIT",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 878
     },
     {
       "name": "ml-explore/mlx-swift-examples",
       "url": "https://github.com/ml-explore/mlx-swift-examples",
-      "category": "MLX",
-      "why": "Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample builds on Xcode 27.1.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "MLX",
+      "what": "Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample builds on Xcode 27.1.",
+      "min_ios": 17,
+      "build": {
+        "result": "passed",
+        "xcode": "27.1",
+        "date": "2026-11-21",
+        "note": "iOS Simulator; MLXChatExample needs Xcode's macro trust prompt accepted"
+      },
+      "license": "MIT",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 2702
     },
     {
       "name": "ggml-org/llama.cpp",
       "url": "https://github.com/ggml-org/llama.cpp",
-      "category": "Runtimes",
-      "why": "C/C++ LLM inference for GGUF models; the most widely used local runtime. Build for iOS and call from Swift via C interop.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Runtimes",
+      "what": "C/C++ LLM inference for GGUF models; the most widely used local runtime. Build for iOS and call from Swift via C interop.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "MIT",
       "status": "active",
-      "stars": 135899
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
+      "stars": 135900
     },
     {
       "name": "mlc-ai/mlc-llm",
       "url": "https://github.com/mlc-ai/mlc-llm",
-      "category": "Runtimes",
-      "why": "Compiled LLM deployment engine that targets iOS and other platforms. Use when you need one compiled model across devices.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Runtimes",
+      "what": "Compiled LLM deployment engine that targets iOS and other platforms. Use when you need one compiled model across devices.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "Apache-2.0",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 23405
     },
     {
       "name": "huggingface/swift-transformers",
       "url": "https://github.com/huggingface/swift-transformers",
-      "category": "Runtimes",
-      "why": "Swift package for tokenizers and Hugging Face Hub access. Needed for most Swift LLM apps that load models from the Hub.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Runtimes",
+      "what": "Swift package for tokenizers and Hugging Face Hub access. Needed for most Swift LLM apps that load models from the Hub.",
+      "min_ios": null,
+      "build": {
+        "result": "passed",
+        "xcode": "27.1",
+        "date": "2026-11-21",
+        "note": "Hub scheme"
+      },
+      "license": "Apache-2.0",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 1366
     },
     {
       "name": "argmaxinc/argmax-oss-swift",
       "url": "https://github.com/argmaxinc/argmax-oss-swift",
-      "category": "Speech",
-      "why": "On-device speech AI for Apple silicon (formerly WhisperKit). WhisperAX example builds on Xcode 27.1. Swift-native option for on-device transcription.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Speech",
+      "what": "On-device speech AI for Apple silicon (formerly WhisperKit). WhisperAX example builds on Xcode 27.1. Swift-native option for on-device transcription.",
+      "min_ios": null,
+      "build": {
+        "result": "passed",
+        "xcode": "27.1",
+        "date": "2026-11-21",
+        "note": "WhisperAX example, iOS Simulator"
+      },
+      "license": "MIT",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 6469
     },
     {
       "name": "ggml-org/whisper.cpp",
       "url": "https://github.com/ggml-org/whisper.cpp",
-      "category": "Speech",
-      "why": "C/C++ port of OpenAI's Whisper. Widely used on mobile; usable from Swift via C interop.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Speech",
+      "what": "C/C++ port of OpenAI's Whisper. Widely used on mobile; usable from Swift via C interop.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "MIT",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 55383
     },
     {
       "name": "tucan9389/awesome-ml-demos-with-ios",
       "url": "https://github.com/tucan9389/awesome-ml-demos-with-ios",
-      "category": "Curated lists",
-      "why": "Sample projects running ML models on iOS. Last pushed 2021; useful for patterns, not current APIs.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Curated lists",
+      "what": "Sample projects running ML models on iOS. Last pushed 2021; useful for patterns, not current APIs.",
+      "min_ios": null,
+      "build": {
+        "result": "not_tested"
+      },
+      "license": "MIT",
       "status": "stale",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 1293
     },
     {
       "name": "onmyway133/awesome-machine-learning",
       "url": "https://github.com/onmyway133/awesome-machine-learning",
-      "category": "Curated lists",
-      "why": "Curated ML resources with a Core ML focus. Active.",
-      "added": "2026-11-21",
-      "last_verified": "2026-11-21",
+      "section": "Curated lists",
+      "what": "Curated ML resources with a Core ML focus. Active.",
+      "min_ios": null,
+      "build": {
+        "result": "n/a"
+      },
+      "license": "MIT",
       "status": "active",
+      "added": "2026-11-21",
+      "last_checked": "2026-11-21",
       "stars": 814
     }
   ]
