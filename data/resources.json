@@ -1,0 +1,49 @@
+{
+  "entries": [
+    {
+      "name": "apple/coreai-models",
+      "url": "https://github.com/apple/coreai-models",
+      "category": "Core AI",
+      "why": "Apple's official Core AI export recipes and Swift runtime.",
+      "added": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "status": "active"
+    },
+    {
+      "name": "john-rocky/coreai-model-zoo",
+      "url": "https://github.com/john-rocky/coreai-model-zoo",
+      "category": "Core AI",
+      "why": "Swift conversions of LLMs for Core AI.",
+      "added": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "status": "active"
+    },
+    {
+      "name": "onmyway133/awesome-machine-learning",
+      "url": "https://github.com/onmyway133/awesome-machine-learning",
+      "category": "Curated lists",
+      "why": "Curated ML resources with a Core ML focus.",
+      "added": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "status": "active"
+    },
+    {
+      "name": "AppStorage/FoundationChat",
+      "url": "https://github.com/AppStorage/FoundationChat",
+      "category": "Foundation Models",
+      "why": "SwiftUI chat app built on the Foundation Models framework (MIT).",
+      "added": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "status": "stale"
+    },
+    {
+      "name": "likedan/Awesome-CoreML-Models",
+      "url": "https://github.com/likedan/Awesome-CoreML-Models",
+      "category": "Core ML models",
+      "why": "Large collection of Core ML models.",
+      "added": "2026-11-21",
+      "last_verified": "2026-11-21",
+      "status": "stale"
+    }
+  ]
+}
