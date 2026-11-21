@@ -38,7 +38,7 @@ Curated iOS on-device and Apple AI resources. Status is checked weekly.
 
 - [ml-explore/mlx-swift](https://github.com/ml-explore/mlx-swift) - Swift API for Apple's MLX array framework on Apple silicon. Base layer for the LLM packages below.
 - [ml-explore/mlx-swift-lm](https://github.com/ml-explore/mlx-swift-lm) - Run and fine-tune LLMs and VLMs in Swift. iOS 17+. Includes an MLXFoundationModels bridge for Apple's LanguageModelSession.
-- [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples) - Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample needs Xcode's macro trust prompt accepted before it builds (verified 2026-11-21: build blocked until trusted).
+- [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples) - Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample builds for iOS Simulator on Xcode 27.1 after accepting Xcode's macro trust prompt (verified 2026-11-21).
 
 ## Runtimes
 

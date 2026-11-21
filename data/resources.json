@@ -174,7 +174,7 @@
       "name": "ml-explore/mlx-swift-examples",
       "url": "https://github.com/ml-explore/mlx-swift-examples",
       "category": "MLX",
-      "why": "Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample needs Xcode's macro trust prompt accepted before it builds (verified 2026-11-21: build blocked until trusted).",
+      "why": "Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample builds for iOS Simulator on Xcode 27.1 after accepting Xcode's macro trust prompt (verified 2026-11-21).",
       "added": "2026-11-21",
       "last_verified": "2026-11-21",
       "status": "active",
