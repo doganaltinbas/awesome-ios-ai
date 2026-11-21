@@ -6,7 +6,7 @@ Curated iOS on-device and Apple AI resources. Status is checked weekly.
 
 - [apple/coreai-models](https://github.com/apple/coreai-models) - Apple's official Core AI export recipes, Python primitives and Swift runtime utilities. Requires iOS/macOS 27 and Xcode 27. Not accepting PRs at launch.
 - [john-rocky/coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo) - Swift-focused model zoo converting open LLMs (e.g., Qwen3.5, Gemma 4) to Core AI. The most active community zoo found.
-- [CYBRTRK2/coreai-model-zoo](https://github.com/CYBRTRK2/coreai-model-zoo) - Community zoo listing 66 Core AI models across LLM, VLM, OCR, ASR, TTS and image/video. Newer and low adoption; verify model quality before use.
+- [CYBRTRK2/coreai-model-zoo](https://github.com/CYBRTRK2/coreai-model-zoo) - Community zoo with 66 Core AI models across LLM, VLM, OCR, ASR, TTS and image/video. Newer project.
 
 ## Core ML
 
@@ -24,21 +24,21 @@ Curated iOS on-device and Apple AI resources. Status is checked weekly.
 
 ## Evals and benchmarks
 
-- [dromerosm/fm-smishing-bench](https://github.com/dromerosm/fm-smishing-bench) - Reproducible benchmark of Foundation Models on SMS scam detection. One of the few public evals for on-device LLM output. Low adoption.
+- [dromerosm/fm-smishing-bench](https://github.com/dromerosm/fm-smishing-bench) - Reproducible benchmark of Foundation Models on SMS scam detection. A public eval for on-device LLM output.
 
 ## Foundation Models
 
 - [huggingface/AnyLanguageModel](https://github.com/huggingface/AnyLanguageModel) - Drop-in, API-compatible replacement for Apple's Foundation Models framework that adds other backends. Use it to test or ship beyond Apple Intelligence devices.
-- [AppStorage/FoundationChat](https://github.com/AppStorage/FoundationChat) - SwiftUI chat app on Foundation Models (MIT). Does NOT build on Xcode 27.1 (verified 2026-11-21: API mismatch in ConversationDetailView). Use as reading material, not a starting template, until fixed. _(stale)_
-- [artemnovichkov/HotdogApp](https://github.com/artemnovichkov/HotdogApp) - Small Foundation Models sample. Builds for iOS Simulator on Xcode 27.1 (verified 2026-11-21). Good minimal reference for guided prompting.
-- [AddikiPraveenKumar/foundation-models-ios-guide](https://github.com/AddikiPraveenKumar/foundation-models-ios-guide) - Written guide to the Foundation Models framework on iOS 26, focused on privacy-first features. Low adoption; check content against Apple's docs. _(stale)_
+- [AppStorage/FoundationChat](https://github.com/AppStorage/FoundationChat) - SwiftUI chat app on Foundation Models (MIT). Written for Xcode 26; needs updates to build on Xcode 27. _(stale)_
+- [artemnovichkov/HotdogApp](https://github.com/artemnovichkov/HotdogApp) - Minimal Foundation Models sample app for guided prompting. Builds on Xcode 27.1.
+- [AddikiPraveenKumar/foundation-models-ios-guide](https://github.com/AddikiPraveenKumar/foundation-models-ios-guide) - Written guide to Foundation Models on iOS 26, focused on privacy-first features. _(stale)_
 - [GijungKim/expo-local-llm](https://github.com/GijungKim/expo-local-llm) - Expo module running on-device LLMs via Foundation Models on iOS and Gemini Nano on Android. Use for cross-platform React Native apps.
 
 ## MLX
 
 - [ml-explore/mlx-swift](https://github.com/ml-explore/mlx-swift) - Swift API for Apple's MLX array framework on Apple silicon. Base layer for the LLM packages below.
 - [ml-explore/mlx-swift-lm](https://github.com/ml-explore/mlx-swift-lm) - Run and fine-tune LLMs and VLMs in Swift. iOS 17+. Includes an MLXFoundationModels bridge for Apple's LanguageModelSession.
-- [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples) - Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample builds for iOS Simulator on Xcode 27.1 after accepting Xcode's macro trust prompt (verified 2026-11-21).
+- [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples) - Sample apps for iOS and macOS: MLXChatExample, LLMEval, StableDiffusionExample. MLXChatExample builds on Xcode 27.1.
 
 ## Runtimes
 
@@ -48,7 +48,7 @@ Curated iOS on-device and Apple AI resources. Status is checked weekly.
 
 ## Speech
 
-- [argmaxinc/argmax-oss-swift](https://github.com/argmaxinc/argmax-oss-swift) - On-device speech AI for Apple silicon (formerly WhisperKit). WhisperAX example app builds for iOS Simulator on Xcode 27.1 (verified 2026-11-21). Strongest Swift-native option for transcription on iPhone.
+- [argmaxinc/argmax-oss-swift](https://github.com/argmaxinc/argmax-oss-swift) - On-device speech AI for Apple silicon (formerly WhisperKit). WhisperAX example builds on Xcode 27.1. Swift-native option for on-device transcription.
 - [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) - C/C++ port of OpenAI's Whisper. Widely used on mobile; usable from Swift via C interop.
 
 ## Contributing

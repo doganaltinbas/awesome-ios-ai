@@ -4,7 +4,6 @@
 - Category:
 - Why it matters (one line):
 - Target OS / Xcode version:
-- Verified today (repo is active and works)? yes / no
 
 ## Checklist
 

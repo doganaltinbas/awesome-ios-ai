@@ -1,8 +1,8 @@
 # Which on-device AI option for iOS?
 
-Quick comparison of Apple's and open-source options. Rows marked _(verify)_ come from iOS 27 material that may change before release.
+Quick comparison of Apple's and open-source options. Core AI is an iOS 27 framework.
 
-| | Foundation Models | Core AI _(verify)_ | Core ML | MLX Swift |
+| | Foundation Models | Core AI (iOS 27) | Core ML | MLX Swift |
 |---|---|---|---|---|
 | Introduced | iOS 26 | iOS 27 | iOS 11 (2017) | Open source, Apple silicon |
 | Minimum OS | iOS 26 | iOS 27 | iOS 11 | iOS 17 (mlx-swift-lm) |
